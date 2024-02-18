@@ -1,0 +1,142 @@
+.homepage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+    background-color: black;
+    position:relative;
+    transition:0.5s;
+    font-family:serif;
+    
+  }
+  #picture{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: black;
+    top: 60px;
+    left:3.9%;
+    width:100%;
+    height: 120%;
+  }
+  #player{
+    
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    top:60px;
+    left:34%;
+    
+    width: 39.5%;
+    height: auto;
+    background:rgb(9, 9, 9);
+    
+
+    
+    z-index:3;
+    
+
+  }
+  #playerr{
+   
+    
+    
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    top:0px;    left:60px; 
+    /* right: -350px; */
+     width: 20%;
+    height: 150px;
+    background:black;
+    margin-right: 10px;
+    
+   
+    z-index:2;
+  }
+  #playerrr{
+   
+    
+    
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    top:0px;    left:20%; 
+    /* right: -350px; */
+     width: 20%;
+    height: 150px;
+    background:black;
+    margin-right: 10px;
+    
+   
+    z-index:2;
+  }
+
+ #video{
+  width: 39.5%;
+    height: 100px;
+    transform: translate(7.969e-14px, 0px) rotate(0deg);
+
+ }
+
+ #videoPlayer {
+  position: relative;
+  top: 150px; /* Adjust the distance from the top */
+  left: -10%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  width: 40%;
+  height: auto;
+}
+#video-bar{
+  display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 17px;
+    width:100%;
+    display: flex;
+    align-items: center;
+ 
+ 
+  top:-20px;
+  justify-content: space-between;
+  background: rgb(32,32,32);
+  height: 150px;
+
+  z-index:2;
+}
+
+#widget{
+  margin-top: auto;
+  background:black;
+  top:auto;
+  /* position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  top:0px;    left:60px;  */
+  /* right: -350px; */
+   /* width: 100%;
+  height: 150px;
+  background:black;
+  margin-right: 10px; */
+  
+ 
+  z-index:2;
+}
